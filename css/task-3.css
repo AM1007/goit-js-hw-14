@@ -1,0 +1,25 @@
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.gallery__img {
+  display: block;
+  width: 70vw;
+  max-width: 100%;
+  aspect-ratio: 4/3;
+  object-fit: cover;
+  object-position: 50% 50%;
+  border-radius: 2%;
+  filter: contrast(80%);
+}
+
+.gallery__img:hover {
+  filter: contrast(100%);
+}
