@@ -1,0 +1,17 @@
+.autos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  gap: 10px;
+}
+
+.auto {
+  border: 1px solid grey;
+  box-shadow: #212121;
+  padding: 5px;
+}
+
+.autos__header {
+  text-align: center;
+}
