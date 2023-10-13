@@ -52,10 +52,6 @@ Write a script that for each element of the `ingredients` array:
 3. Will add the `item` class to the element.
 4. After that, it will insert all `<li>` in one operation into the `ul#ingredients` list.
 
-### Task 3
-
-Write a script to create a gallery and display an array of data on the display. HTML list ul.gallery.
-
 ---
 
 ### Task 3
