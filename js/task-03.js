@@ -13,8 +13,6 @@ const images = [
   },
 ];
 
-// Знаходимо список
-
 const list = document.querySelector(".gallery");
 console.log(list);
 

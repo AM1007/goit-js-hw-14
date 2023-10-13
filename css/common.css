@@ -1,5 +1,7 @@
-@import url("./task-11.css");
 @import url("./task-3.css");
+@import url("./task-4.css");
+@import url("./task-5.css");
+
 * {
   box-sizing: border-box;
 }

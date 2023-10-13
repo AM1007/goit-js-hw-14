@@ -88,3 +88,32 @@ const images = [
 ---
 
 ### Task 4
+
+The counter consists of a span and buttons, which, when clicked, should increase and decrease its value by one unit.
+
+```js
+<div id="counter">
+  <button type="button" data-action="decrement">
+    -1
+  </button>
+  <span id="value">0</span>
+  <button type="button" data-action="increment">
+    +1
+  </button>
+</div>
+```
+
+1. Create a `counterValue` variable that will store the current value of the counter and initialize it with the value `0`.
+2. Add click listeners to the buttons, inside which increase or decrease the value of the counter.
+3. Update the interface with the new value of the `counterValue` variable.
+
+---
+
+### Task 5
+
+Write a script that, when typing text in the input `input#name-input` (`input` event), substitutes its current value in `span#name-output`. If the input is empty, the sleep should display the string `"Anonymous"`.
+
+```js
+<input type="text" id="name-input" placeholder="Please enter your name" />
+<h1>Hello, <span id="name-output">Anonymous</span>!</h1>
+```
